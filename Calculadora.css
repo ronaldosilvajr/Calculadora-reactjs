@@ -1,0 +1,50 @@
+button{
+    position: flex;
+    width: 2em;
+    height: 2em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.Calculadora{
+    position: absolute;
+    background-image: linear-gradient(45deg,black,#4e4e4e);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 1em;
+
+}
+     
+.Laranja{
+    background-image: linear-gradient(45deg,black,#fc8c03);
+    color:white;
+}
+
+.Cinza{
+    background-color: #424242;
+    color: white;
+}
+
+.Resultado{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 0em;
+    font-size: 3em;
+
+}
+
+.Fundo{
+    background-image: linear-gradient(45deg,black,crimson);
+    height: 100vh;
+}
